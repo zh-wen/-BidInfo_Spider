@@ -1,1 +1,2 @@
-# -BidInfo_Spider
+# BidInfo_Spider
+基于Scrapy框架，通过模拟post和get方式对政府网站的中标信息进行爬取，并通过正则表达式对有效信息进行筛选和写入本地数据库。
