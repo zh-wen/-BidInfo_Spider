@@ -8,7 +8,9 @@
 import scrapy
 
 
-class CqSpiderItem(scrapy.Item):
+class CqspiderItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    project_name = scrapy.Field()
+    bid_name = scrapy.Field()
+    bid_money = scrapy.Field()
+    bid_time = scrapy.Field()
